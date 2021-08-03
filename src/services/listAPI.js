@@ -7,7 +7,6 @@ export const fetchCharacters = async () => {
     name,
     status,
     species,
-    type,
     gender
   }));
   
