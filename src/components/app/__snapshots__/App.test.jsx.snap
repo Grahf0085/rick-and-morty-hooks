@@ -2,8 +2,19 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <section
+    class="App"
+  >
+    <header>
+      <h1>
+        Rick and Morty Toons 2.0132432487398503
+      </h1>
+    </header>
+    <main>
+      <h1>
+        Loading...
+      </h1>
+    </main>
+  </section>
 </DocumentFragment>
 `;

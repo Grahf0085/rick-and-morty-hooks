@@ -16,11 +16,8 @@ const ToonList = ({ toons }) => {
 ToonList.propTypes = {
   toons: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      name: PropTypes.string.isRequired,
-      status: PropTypes.string.isRequired,
-      species: PropTypes.string.isRequired,
-      gender: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string,
       image: PropTypes.string.isRequired
     })
   ).isRequired,

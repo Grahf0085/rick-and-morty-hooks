@@ -11,8 +11,8 @@ const Toon = ({ id, name, image }) => (
 );
 
 Toon.propTypes = {
-  id:PropTypes.number.isRequired,
-  name: PropTypes.string.isRequired,
+  id:PropTypes.string.isRequired,
+  name: PropTypes.string,
   image: PropTypes.string.isRequired
 };
 
