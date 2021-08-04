@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToonList component makes ul filled with lis from Toon component 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <figure>
+        <a
+          href="/character/1"
+        >
+          <img
+            src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+          />
+        </a>
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
