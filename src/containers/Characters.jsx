@@ -13,7 +13,7 @@ const Characters = () => {
   }, []);
 
   if(loading) return <h1>Loading...</h1>;
-  
+
   return <ToonList toons={toons} />;
 };
 

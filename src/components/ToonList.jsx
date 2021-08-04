@@ -19,7 +19,8 @@ ToonList.propTypes = {
       name: PropTypes.string.isRequired,
       status: PropTypes.string.isRequired,
       species: PropTypes.string.isRequired,
-      gender: PropTypes.string.isRequired 
+      gender: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired
     })
   ).isRequired,
 };

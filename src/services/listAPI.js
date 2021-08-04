@@ -3,12 +3,9 @@ export const fetchCharacters = async () => {
   const json = await res.json();
   const usable = json.results;
 
-  return usable.map(({ id, name, status, species, gender }) => ({
+  return usable.map(({ id, image }) => ({
     id,
-    name,
-    status,
-    species,
-    gender
+    image
   }));
   
 };
