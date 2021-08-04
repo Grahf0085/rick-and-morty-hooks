@@ -8,6 +8,7 @@ import {
 import Characters from '../../containers/Characters';
 import CharDetail from '../../containers/CharDetail';
 import Header from '../Header';
+import './app.css';
 
 export default function App() {
   return <section className="App">

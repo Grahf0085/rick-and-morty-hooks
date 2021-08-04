@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Toon from './Toon';
+import './toonlist.css';
 
 const ToonList = ({ toons }) => {
   const toonElements = toons.map((toon) => (
